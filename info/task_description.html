@@ -1,16 +1,16 @@
 <!-- Describe task in general -->
 
 <p>
-    Crie uma função que receba dois números inteiros como parâmetros e retorne a soma desses números.
+    Crie uma função que receba a idade de uma pessoa como entrada e retorne a mensagem "É maior de idade" se a idade for maior ou igual a 18, e a mensagem "É menor de idade" se a idade for menor que 18.
 </p>
 
 <!-- Explain input and output values -->
 <p>
-    <strong>Entrada: </strong> Dois números inteiros a e b.
+    <strong>Entrada: </strong>  • Um inteiro positivo representando a idade da pessoa.
 </p>
 
 <p>
-    <strong>Saída: </strong> Um número inteiro, que é a soma de a e b. 
+    <strong>Saída: </strong>  • Uma string contendo a mensagem "É maior de idade" ou "É menor de idade".
 </p>
 
 
@@ -25,9 +25,10 @@
 countConsecutiveSummers(99) == 6
 </pre>
 {% else %}
-<pre class="brush: python">soma(2,3) == 5
-soma(-1,5) == 4
-soma(0,0) == 0
+<pre class="brush: python">
+checa_idade(20) >> "É maior de idade" 
+checa_idade(15) >> "É menor de idade"
+checa_idade(18) >> "É maior de idade"
 </pre>
 {% endif %}
 </div>
